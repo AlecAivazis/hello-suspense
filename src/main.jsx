@@ -15,8 +15,6 @@ import TransitionDemo from "./routes/Transition";
 
 import { QueryClient, QueryClientProvider } from "react-query";
 
-import "./App.css";
-
 const queryClient = new QueryClient();
 
 const router = createBrowserRouter([
